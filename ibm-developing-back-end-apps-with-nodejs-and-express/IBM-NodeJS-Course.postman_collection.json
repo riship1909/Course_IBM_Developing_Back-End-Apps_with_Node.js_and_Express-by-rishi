@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "35b97aa6-c0cf-4bec-a262-06c4efd7eb80",
+		"name": "IBM-NodeJS-Course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28083507"
+	},
+	"item": [
+		{
+			"name": "Task 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books",
+					"host": [
+						"{{site_url}}books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/isbn/1",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"isbn",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/author/Chinua Achebe",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"author",
+						"Chinua Achebe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/title/Things Fall Apart",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"title",
+						"Things Fall Apart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/review/1",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"review",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"harishaideribm\",\n    \"password\" : \"ibm-password\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{site_url}}customer/register",
+					"host": [
+						"{{site_url}}customer"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"harishaideribm\",\n    \"password\" : \"ibm-password\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{site_url}}customer/login",
+					"host": [
+						"{{site_url}}customer"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"review\" : \"This is test review\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{site_url}}customer/auth/review/1",
+					"host": [
+						"{{site_url}}customer"
+					],
+					"path": [
+						"auth",
+						"review",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 9",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{site_url}}customer/auth/review/1",
+					"host": [
+						"{{site_url}}customer"
+					],
+					"path": [
+						"auth",
+						"review",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/all",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 11",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/isbn-2/1",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"isbn-2",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 12",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/author-2/Chinua Achebe",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"author-2",
+						"Chinua Achebe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task 13",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{site_url}}books/title-2/Things Fall Apart",
+					"host": [
+						"{{site_url}}books"
+					],
+					"path": [
+						"title-2",
+						"Things Fall Apart"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
